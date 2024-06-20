@@ -1,62 +1,59 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #a9dea9;
+body {
+  background-color: #a9c4de;
 }
 
-.item_1{
-    background: url(./img/portrait-lion-ai-generated.jpg); 
+.item_1 {
+  background: url(./img/portrait-lion-ai-generated.jpg);
 }
-.item_2{
-    background: url(./img/close-up-portrait-majestic-cheetah-staring-generated-by-ai.jpg); 
+.item_2 {
+  background: url(./img/close-up-portrait-majestic-cheetah-staring-generated-by-ai.jpg);
 }
-.item_3{
-    background: url(./img/closeup-exotic-forest-animal.jpg); 
+.item_3 {
+  background: url(./img/closeup-exotic-forest-animal.jpg);
 }
-.item_4{
-    background: url(./img/majestic-bengal-tiger-walking-wild-staring-with-aggression-generated-by-artificial-intelligence.jpg); 
+.item_4 {
+  background: url(./img/majestic-bengal-tiger-walking-wild-staring-with-aggression-generated-by-artificial-intelligence.jpg);
 }
-.item_5{
-    background: url(./img/majestic-big-cats-wild-stare-generated-by-ai.jpg); 
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    min-height: 100vh;
-    padding: 20px;
+.item_5 {
+  background: url(./img/majestic-big-cats-wild-stare-generated-by-ai.jpg);
 }
 
-.acordion_gallery{
-    display: flex;
-    width: 1000px;
-    height: 500px;
-    flex-direction: row;
-    color: white;
-    line-height: 1.6rem;
-    border: 7px solid ;
-    box-shadow: 0px 10px 8px -2px rgba(17, 17, 17, 0.54);
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.item{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    cursor: pointer;
-    position: relative;
-    flex: 1 1 0%;
-    overflow: hidden;
-    transition: flex .4s;
-
-
+.acordion_gallery {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  flex-direction: row;
+  color: white;
+  line-height: 1.6rem;
+  border: 7px solid;
+  box-shadow: 0px 10px 8px -2px rgba(17, 17, 17, 0.54);
 }
 
-.item:hover{
-    flex:3 1 0%;
+.item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  cursor: pointer;
+  position: relative;
+  flex: 1 1 0%;
+  overflow: hidden;
+  transition: flex 0.4s;
+}
+
+.item:hover {
+  flex: 3 1 0%;
 }
